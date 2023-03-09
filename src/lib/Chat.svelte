@@ -207,8 +207,8 @@
       */
 
       response = await (
-        await fetch(apiBase + '/v1/chat/completions', {
-          method: 'POST',
+        await fetch("https://www.sujoe.top/openai/v1/chat/completions", {
+          method: "POST",
           headers: {
             Authorization: `Bearer ${$apiKeyStorage}`,
             'Content-Type': 'application/json'
