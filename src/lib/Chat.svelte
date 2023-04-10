@@ -207,7 +207,7 @@
       */
 
       response = await (
-        await fetch("https://www.sujoe.top:9000/v1/chat/completions", {
+        await fetch("https://openai-proxy-zeta-seven.vercel.app/v1/chat/completions", {
           method: "POST",
           headers: {
             Authorization: `Bearer ${$apiKeyStorage}`,
